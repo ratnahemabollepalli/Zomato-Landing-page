@@ -1,24 +1,57 @@
+
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <title>Zomato</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Zomato logo in the tab -->
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJQAAACUCAMAAABC4vDmAAAAb1BMVEXMIC7////MHiz+/PzKABvHAADLECPZbXTLFyfMGyrWXmb78PH13d7osLLIAAvilZrorLDce4HJABTgjZL56OnlnqHfh4z99/jPOEHwyszmpKfz09XtvL/ac3jNKDTvxcfSSVHTUlnYZm3PMDzQQEne3tOdAAAEj0lEQVR4nO2X3dKjKBCGFQHB34iaaDQaY+7/Ghe6NTGZ3XxmqrZmDvo5SBka4e2mG9DzCIIgCIIgCIIgCIIgCIIgCIIgCIIgCIIgCILYwBj70xJ+QcrB+9tU8WhMLvJPq3hFXk6+X/D/Y2im9VtiMNe0sb4ZH71F7L+LYr/0/wnFn6xBl9Jrmllz/eiluRqaxoMWzVnTDJI/bVIxJvFtNVlN/kXAcAzNerb9+Rcryq/1YeUcwkRKhH1XVUlb6nViM+RjUlXdeeCeVLmz9oWAaZiZ875t2/EcCStZhk7UCOPlNt9ZNtTwagrmXcgo8DfUxjZdk/XvCROW8fK0tMSX7Bovz8lkrUzWjxHGWS2ilg52nTfmvtkZLN5vNfmx8PgUbxpy4eKUPxuConr2bqyIctO74norqvO0TDfmRKl9osY3UeqOmoLFQbui8oLPm5guj63WGjQGSyR7vhWVquzw0r/bt6uqsESOLcwi0LWgvlzOMFIya9PBQxEe1xiWYYHORNKL/aouwtulBqcmDqLatO/7uuETjNHZV2EM/7hvq1ASyK7w0iSvuC7GNg2goTQNaNJS8hnCcooyKQWseyqGxFaaVEqKm2vIBYjC6tMSOp2FnUCAs3H2xdagGpiuV5g+NThkIF06cYHZXJOB1ehcqavIrVgihqsz2I1IDa4+RhSF+5SenVuxdFXHhmoJ7W5NHryRcJ25MMdXSEh9d62BcAsT3NxoEvT1AiasIAc97Wlj5us0TR2o3IiSELwzLpk4PN3dg1aQUNXdhsBNVXEIMlOQCAxEgYvy5nIkzcDzBEUxo/M2qeI4drZqK4pDqEsMDiZbv1fUksnxLD3dxDAyGjLI5ubfRXkoirGzv+FFVAamAkWp+zeiGIfAnm62/yIq24oaPoriB/+/RYHt+BuiGNZRMBnvkZozHggcVjX7KCoCh8byEobJuyhTP0rEnR2bBPsJrLHgmGHUEggaOKdnnPejKOdRUBrDJbjwmlPFJjjg286NCufxC5hIc6yRFLYTg2N+FgW/9rixL6MorDjoou4wNhx5TMGJOu85lFmGG5TdAO1VY66jCVKjMJIbWEo//FnU6WaUlrDVtaLBQjZuOAVJ2Xp2I0VvO7ErUBCNIM3LvO7tBBEmt9/m5QHOs1Z+zilYlKq43qcWsxouef4pPaRdoiBsfnwuczxmbrv2Tr49xd3c/Bq/tDTKfBTV4HtxfMIIaf68UiRe9jp8ui/N30T5k+LR6fk3tvsEpCuKUs1DlMdh7xcY6hXbnXnt+m+UTG6vRqPYd/KtN5XVN8PsJa9bbhpBd7dSNBzMeGiJ9inq6OP9K3xcsKqLi4QaenQrnpS9UNWrj6dS7T2N5VDkD46DKw5lboc2ScZDlMEZqJpjnjdQNkzb3iEmhrmVuTtCuCxS273r8+X2zLJ7fkjTfIaqc7flzlqPs9l/Q9By8+GABWs/AvQw6OXij12WUrYmvl4f5fKlgd3tl8Sj3O3HyPMVO443sI31t2HffXr/0P1v/I4nCIIgCIIgCIIgCIIgCIIgCIIgCIIgCIIgiK/5B1naRTa4qy6GAAAAAElFTkSuQmCC"
+    />
+    <!-- Font awesome icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Poppins font by google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Importing styles.css -->
     <link rel="stylesheet" href="./Style.css" />
-</head>
-<body>
-    <div>
-        <div>
-            <video class="header-video"  autoplay muted loop>
-                <source src ="./Zomato - Indias 1 Food delivery app.mp4" type="video/mp4"  >
-            </video>
-            <img src="./zomato icon.avif" class="header-icon" >
+
+    <title>Zomato Landing Page Clone</title>
+  </head>
+  <body>
+    <section class ="hero_section">
+    <header>
+        <nav class ="navbar">
+            <a href ="#">Get the App</a>
+            <div class ="navbar_menu_container">
+                <a href ="#">Investor</a>
+                <a href ="#">Add a Restaurent</a>
+                <a href ="#">Sign In</a>
+                <a href ="#">Sign Up</a>
+                <a href ="#" class="user_icon"><i class="fa-solid fa-user"></i></a>
+
+            </div>
+
+        </nav>
+    </header>
+    </section>
 
 
 
-
-        </div>
-
-
-
-
-    </div>
-</body>
+  </body>
+</html>
