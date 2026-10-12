@@ -13,7 +13,7 @@
     background-image: url(./images/heroSectionBackground.png);
     background-size: cover;
     background-position: center;
-    min-height: 60vh;
+    min-height: 55vh;
 }
 
 .navbar{
@@ -52,7 +52,7 @@
     justify-content: center;
     color: white;
     gap: 20px;
-    height: calc(60vh - 65px);
+    height: calc(60vh - 108px);
 }
 
 .hero_section_logo{
@@ -177,6 +177,7 @@ outline :none;
 }
 .we_offer_card:hover {
     transform: scale(1.08);
+    cursor: pointer;
 }
 .we_offer_card img{
     width: 100%;
@@ -191,6 +192,7 @@ outline :none;
 .we_offer_card h2{
     font-size: 20px;
     font-weight: 700 ;
+    padding-bottom: 7px;;
 }
 .we_offer_card p{
     font-size: 15px;
