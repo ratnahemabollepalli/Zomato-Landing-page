@@ -82,15 +82,7 @@
 border:none;
 padding:5px;
 outline :none;
-}
-.input_container_location{
-    width: 35%;
-    border-right: 2px solid #e0e0e0;
-
-}
-.input_container_search{
-    width: 65%;
-}
+} 
 
 
 
@@ -302,3 +294,6 @@ outline :none;
     letter-spacing: 0.5px;
 }
 
+
+
+/*get the app section  */
